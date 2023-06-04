@@ -4,7 +4,7 @@ import 'addUser/addUser.view.dart';
 import 'addUser/addUser.viewModel.dart';
 import 'user.model.dart';
 import 'user.service.dart';
-import 'userDetails.view.dart';
+import 'userDetails/userDetails.view.dart';
 
 class UsersViewModel extends ChangeNotifier {
   bool _loading = false;

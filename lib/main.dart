@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       ),
       home: ChangeNotifierProvider(
         create: (context) => UsersViewModel(),
-        child: UsersView(),
+        child: const UsersView(),
       ),
     );
   }
